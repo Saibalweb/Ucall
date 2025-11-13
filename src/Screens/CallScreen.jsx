@@ -50,7 +50,7 @@ const endCall = () => {
     socket.off('incoming-call');
     socket.off('call-accepted');
 
-  navigation.goBack(); // Or navigate('HomeScreen') if named
+  navigation.goBack(); 
 };
 
 const toggleMute = () => {
@@ -58,7 +58,7 @@ const toggleMute = () => {
 
   localStream.getAudioTracks().forEach(track => {
     track.enabled = !track.enabled;
-    setIsMuted(!track.enabled); // Because we just toggled it
+    setIsMuted(!track.enabled); 
   });
 };
 

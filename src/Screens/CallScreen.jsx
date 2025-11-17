@@ -45,7 +45,6 @@ const endCall = () => {
   if (peer) {
     peer.close();
   }
-    // Remove socket listeners
     socket.off('user-joined');
     socket.off('incoming-call');
     socket.off('call-accepted');

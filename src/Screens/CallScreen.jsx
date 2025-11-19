@@ -130,7 +130,6 @@ const toggleMute = () => {
         translucent={true}
       />
 
-      {/* Remote video */}
       <View style={styles.mainVideo}>
         {remoteStream && (
           <RTCView

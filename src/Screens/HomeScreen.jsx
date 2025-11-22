@@ -40,7 +40,6 @@ export default function HomeScreen() {
       
       <View style={styles.content}>
         
-        {/* Enter Call ID Section */}
         <View style={styles.inputContainer}>
           <Text style={styles.labelText}>Your email Id</Text>
           <TextInput

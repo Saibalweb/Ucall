@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { RTCPeerConnection, mediaDevices } from 'react-native-webrtc';
+import { RTCPeerConnection } from 'react-native-webrtc';
 
 const PeerContext = React.createContext(null);
 export const usePeer = () => React.useContext(PeerContext);

@@ -2,7 +2,6 @@ import React, {useCallback, useEffect, useState} from 'react';
 import {
   View,
   StyleSheet,
-  Image,
   TouchableOpacity,
   SafeAreaView,
   StatusBar,

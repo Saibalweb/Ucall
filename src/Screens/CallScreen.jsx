@@ -85,7 +85,6 @@ const toggleMute = () => {
       await setRemoteAns(ans);
       console.log('Call accepted.');
       const pc = new RTCPeerConnection(configuration);
-      console.log(pc.connectionState);
     },
     [setRemoteAns],
   );
